@@ -43,7 +43,7 @@ const CommentArea = ({ asin }) => {
     };
     fetchData();
   }, [asin]);
-
+  //we do not use RENDER() method in the functional components, hooks dont work with the class components
   return (
     <>
       {/* this.state.isError is not working?? */}

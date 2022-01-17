@@ -52,7 +52,7 @@ const Home = ({ card }) => {
         </Col>
         <Col md={4}>
           <div className="d-block-flex mt-5 ml-5">
-            <h4> ID : {selectedCard}</h4>
+            <h4> ID : {}</h4>
             <CommentArea asin={selectedCard} />
           </div>
           {/* {selected && <CommentArea asin={this.props.book.asin} />} */}
